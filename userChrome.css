@@ -1,0 +1,16 @@
+/* No blue swipe on tabs when loaded */
+.tabbrowser-tab .tab-loading-burst {
+  display: none !important;
+}
+
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
+  opacity: 0;
+  pointer-events: none;
+}
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+    visibility: collapse !important;
+}
+
+#TabsToolbar[inFullscreen]{
+  display: none !important; 
+}
