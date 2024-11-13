@@ -8,4 +8,3 @@
 5. Go to about:config in web browser  
 6. Search for 'userprof'  
 7. Set toolkit.legacyUserProfileCustomizations.stylesheets to True  
-
